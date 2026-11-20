@@ -5,7 +5,7 @@
 ![Architecture](https://img.shields.io/badge/Architecture-ARM%20Cortex--M3-orange.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 
-A high-performance, real-time **Digital Storage Oscilloscope (DSO)** firmware written in bare-metal C for the **STM32F103** (ARM Cortex-M3) microcontroller. This project demonstrates zero-CPU-overhead data acquisition using hardware Timers, ADC, and DMA, rendering real-time waveforms and electrical metrics on a 320x240 ILI9341 TFT LCD.
+A high-performance, real-time **Digital Storage Oscilloscope (DSO)** firmware written in bare-metal C for the **ch32F103** (ARM Cortex-M3) microcontroller. This project demonstrates zero-CPU-overhead data acquisition using hardware Timers, ADC, and DMA, rendering real-time waveforms and electrical metrics on a 320x240 ILI9341 TFT LCD.
 
 ---
 
@@ -76,22 +76,9 @@ Applied to all voltage metrics ($V_{max}, V_{min}, V_{pp}, V_{dc}, V_{rms}$) and
 
 ---
 
-## 🛠️ How to Build & Flash
+## 🛠️ How  Flash
 
-1. **Prerequisites:**
-   - Keil uVision 5 / STM32CubeIDE / GNU Arm Embedded Toolchain.
-   - ST-Link V2 Programmer.
-   - Standard Peripheral Library (StdPeriph) for STM32F10x.
-
-2. **Build Steps (Keil uVision):**
-   1. Clone this repository:
-      ```bash
-      git clone https://github.com/your-username/stm32-baremetal-dso.git
-      ```
-   2. Open the project file in Keil uVision (`.uvprojx`).
-   3. Ensure `STM32F10X_MD` and `USE_STDPERIPH_DRIVER` are defined in C/C++ Options.
-   4. Build the project (`F7`).
-   5. Flash to STM32F103 target using ST-Link (`F8`).
+   1. Flash to ch32F103 target using ST-Link .
 
 ---
 
