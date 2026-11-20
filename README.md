@@ -77,8 +77,9 @@ Applied to all voltage metrics ($V_{max}, V_{min}, V_{pp}, V_{dc}, V_{rms}$) and
 ---
 
 ## 🛠️ How  Flash
-
-   1. Flash to ch32F103 target using ST-Link .
+  
+   1. Backup your firmware first .
+   2. Flash to ch32F103 target using ST-Link with this command : st-flash write dso138.bin 0x08000000
 
 ---
 
