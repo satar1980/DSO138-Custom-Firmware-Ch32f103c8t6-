@@ -1,4 +1,4 @@
-# 📈 STM32 Bare-Metal Digital Storage Oscilloscope (DSO)
+# 📈 CH32 DSO Firmware for DSO138
 
 ![C](https://img.shields.io/badge/Language-C-blue.svg)
 ![MCU](https://img.shields.io/badge/MCU-STM32F103C8T6-red.svg)
