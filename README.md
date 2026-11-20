@@ -63,19 +63,6 @@ The UI features a top-bar header, custom vector icons, bottom status bar, and a 
 
 ---
 
-## 📐 Signal Processing Details
-
-### 1. RMS Voltage ($V_{rms}$) Calculation
-To prevent integer overflow during 12-bit ADC squaring:
-$$\text{SumSquares} = \sum_{i=0}^{N-1} (V_{\text{adc}}[i] - V_{\text{GND}})^2$$
-$$V_{rms} = \left( \frac{\sqrt{\frac{\text{SumSquares}}{N}}}{98.0} \right) \times V_{\text{div\_scale}}$$
-
-### 2. Display Smoothing (IIR Filter)
-$$y[n] = 0.8 \cdot y[n-1] + 0.2 \cdot x[n]$$
-Applied to all voltage metrics ($V_{max}, V_{min}, V_{pp}, V_{dc}, V_{rms}$) and frequency measurements to ensure stable display readouts without lag.
-
----
-
 ## 🛠️ How  Flash
   
    1. Backup your firmware first .
