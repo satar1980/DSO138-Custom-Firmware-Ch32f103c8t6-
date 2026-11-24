@@ -72,4 +72,4 @@ The UI features a top-bar header, custom vector icons, bottom status bar, and a 
 
 ## 📸 Screenshots / Demo
 
-[*(Add photos or GIFs of your working scope display here)*](https://youtu.be/jGgBJtvP4P8)
+[*(https://youtu.be/jGgBJtvP4P8)*]
